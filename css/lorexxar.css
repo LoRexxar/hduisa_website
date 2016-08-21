@@ -10,3 +10,12 @@
 	display:block; 
 	margin:0 auto;
 }
+.qrcode img{
+	max-height: 200px;
+	max-width: 250px;
+	min-width: 200px;
+	min-height: 250px;
+	border-radius: 20px;
+	display:block; 
+	margin:0 auto;
+}
