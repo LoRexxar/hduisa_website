@@ -1,0 +1,12 @@
+.yuan {
+	border-radius: 10px;
+}
+.img-base img{
+	max-height: 150px;
+	max-width: 150px;
+	min-width: 150px;
+	min-height: 150px;
+	border-radius: 150px;
+	display:block; 
+	margin:0 auto;
+}
