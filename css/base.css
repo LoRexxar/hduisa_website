@@ -137,7 +137,7 @@ section {
 }
 
 #intro {
-  background-image: url("../images/isa1.jpg");
+  background-image: url("http://qn.lazysheep.cc/images/isa1.jpg");
   transition: all 0.1s ease-in 0s;
   z-index: 11;
 }
@@ -655,7 +655,7 @@ footer {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../images/footer_bg.jpg);
+  background-image: url("http://qn.lazysheep.cc/images/footer_bg.jpg");
   overflow: hidden;
 }
 
@@ -1035,7 +1035,7 @@ form>.form-group {
   }
 
   #intro {
-    background-image: url("../images/isa_mobile.jpg");
+    background-image: url("http://qn.lazysheep.cc/images/isa_mobile.jpg");
   }
 
   .footer-last .row {
@@ -1532,7 +1532,7 @@ form>.form-group {
 
 @media (max-width:767px) and (orientation:portrait) {
   #intro {
-    background-image: url("../images/isa_mobile.jpg");
+    background-image: url("http://qn.lazysheep.cc/images/isa_mobile.jpg");
   }
     .social-medias i{
 	  height:42px;
