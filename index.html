@@ -532,7 +532,7 @@
             <div class="container-fluid cntct-form-main">
                <div class="row inner-content">
                   <div class="col-lg-6 col-md-6 col-xs-6">
-                     <form role="form" class=" container-fluid" action="http://119.29.138.57/sendMail/sendMail.php" method="POST">
+                     <form role="form" class=" container-fluid">
                         <div class="form-group container-fluid ">
                            <input type="text" class="form-control flat-box" id="Inputname" name="name" placeholder="Enter Name" required>
                         </div>
@@ -543,7 +543,7 @@
                            <textarea class="form-control container-fluid flat-box" name="message" placeholder="Message" required></textarea>
                         </div>
                         <div class="container-fluid text-left">
-                           <button class="btn ">Send</button>
+                           <input class="btn " type="submit" id="sendMail" value="Send">
                         </div>
                      </form>
                   </div>
@@ -596,6 +596,7 @@
       <script src="js/classie.js"></script>
       <script src="js/jquery.scrollTo.js"></script>
       <script src="js/jquery.nav.js"></script>
+      <script src="js/sendMail.js"></script>
      
       <script src="js/base.js"></script>
      
