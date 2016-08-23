@@ -34,3 +34,6 @@
 .test-right-main h2{
 	margin-left:50px;
 }
+.min-height{
+	min-height: 300px;
+}
