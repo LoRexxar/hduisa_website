@@ -532,15 +532,15 @@
             <div class="container-fluid cntct-form-main">
                <div class="row inner-content">
                   <div class="col-lg-6 col-md-6 col-xs-6">
-                     <form role="form" class=" container-fluid">
+                     <form role="form" class=" container-fluid" action="http://119.29.138.57/sendMail/sendMail.php" method="POST">
                         <div class="form-group container-fluid ">
-                           <input type="text" class="form-control flat-box" id="Inputname" placeholder="Enter Name">
+                           <input type="text" class="form-control flat-box" id="Inputname" name="name" placeholder="Enter Name" required>
                         </div>
                         <div class="form-group container-fluid">
-                           <input type="email" class="form-control flat-box" id="InputEmail2" placeholder="Enter Email">
+                           <input type="email" class="form-control flat-box" id="InputEmail2" name="email" placeholder="Enter Email" required>
                         </div>
                         <div class=" form-group  container-fluid">
-                           <textarea class="form-control container-fluid flat-box" placeholder="Message"></textarea>
+                           <textarea class="form-control container-fluid flat-box" name="message" placeholder="Message" required></textarea>
                         </div>
                         <div class="container-fluid text-left">
                            <button class="btn ">Send</button>
