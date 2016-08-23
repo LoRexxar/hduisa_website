@@ -37,3 +37,6 @@
 .min-height{
 	min-height: 300px;
 }
+.container-fluid{
+	min-height: 55px;
+}
